@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Editor With Live preview</title>
+  <link rel="stylesheet" href="Css/editor_style.css"> <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.27.0/min/vs/editor/editor.main.min.css">
+</head>
+<body>
+  <div class="container">
+    <div id="editor-container">
+      <div id="editor"></div>
+    </div>
+    <div id="console">
+      <iframe id="preview"></iframe>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.27.0/min/vs/loader.js"></script>
+  <script src="Executer/Runner/Run.js"></script>
+</body>
+</html>
